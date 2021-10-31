@@ -356,3 +356,9 @@ Consider defining a bean of type 'org.springframework.security.authentication.Au
 2021-10-31 21:13:35.282  INFO 26441 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2021-10-31 21:13:35.323  INFO 26441 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
 2021-10-31 21:13:35.337  INFO 26441 --- [restartedMain] com.example.testsb2.TestSb2Application   : Started TestSb2Application in 13.063 seconds (JVM running for 14.077)
+2021-10-31 21:28:57.685  INFO 26441 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-31 21:28:57.686  INFO 26441 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-31 21:28:57.689  INFO 26441 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-10-31 21:31:14.073  INFO 26441 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 21:31:14.078  INFO 26441 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-10-31 21:31:16.507  INFO 26441 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
